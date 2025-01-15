@@ -1,0 +1,64 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "release_year": 1994,
+      "director": "Frank Darabont",
+      "isFavorite": false,
+      "isBasket": true,
+      "rating": 9.3
+    },
+    {
+      "id": "3",
+      "title": "The Dark Knight",
+      "genre": "Action, Crime, Drama",
+      "release_year": 2008,
+      "director": "Christopher Nolan",
+      "isFavorite": false,
+      "isBasket": true,
+      "rating": 9
+    },
+    {
+      "id": "4",
+      "title": "Pulp Fiction",
+      "genre": "Crime, Drama",
+      "release_year": 1994,
+      "director": "Quentin Tarantino",
+      "isFavorite": false,
+      "isBasket": true,
+      "rating": 8.9
+    },
+    {
+      "id": "5",
+      "title": "Forrest Gump",
+      "genre": "Drama, Romance",
+      "release_year": 1994,
+      "director": "Robert Zemeckis",
+      "isFavorite": false,
+      "isBasket": false,
+      "rating": 8.8
+    },
+    {
+      "id": "6",
+      "title": "Inception",
+      "genre": "Action, Adventure, Sci-Fi",
+      "release_year": 2010,
+      "director": "Christopher Nolan",
+      "isFavorite": false,
+      "isBasket": false,
+      "rating": 8.8
+    },
+    {
+      "id": "7",
+      "title": "The Matrix",
+      "genre": "Action, Sci-Fi",
+      "release_year": 1999,
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "isFavorite": false,
+      "isBasket": true,
+      "rating": 8.7
+    }
+  ]
+}

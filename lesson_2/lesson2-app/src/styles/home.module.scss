@@ -1,0 +1,211 @@
+.hero {
+  background-image: url(https://preview.colorlib.com/theme/vegefoods/images/bg_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  &__heading {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 18px;
+  }
+  &__paragraph {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 14px;
+    letter-spacing: 4px;
+  }
+  &__btn {
+    background-color: #82ae46;
+    padding: 10px 17px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+  }
+  &__btn:hover {
+    background-color: transparent;
+    border: 1px solid #82ae46;
+    color: #82ae46;
+  }
+}
+
+.products {
+  margin: 60px 0;
+  text-align: center;
+  &__transport {
+    background-color: #e4b2d6;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 15px;
+    &__truck {
+      position: absolute;
+      left: 25px;
+      top: 20px;
+      color: #fff;
+    }
+  }
+  &__transport:hover {
+    background-color: #82ae46;
+  }
+  &__heading {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #000;
+  }
+  &__order {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #928f8f;
+  }
+}
+
+.vegetables {
+  margin-bottom: 50px;
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &__fruits {
+      width: 350px;
+      height: 230px;
+    }
+    &__word {
+      position: absolute;
+      left: 42px;
+      bottom: 0px;
+      background-color: #82ae46;
+      color: #fff;
+      padding: 5px 20px;
+    }
+  }
+
+  &__shop {
+    text-align: center;
+    &__heading {
+      font-weight: 500;
+      color: #82ae46;
+      margin-bottom: 20px;
+      font-size: 21px;
+    }
+    &__paragraph {
+      font-weight: 500;
+      color: #928f8f;
+      margin-bottom: 17px;
+      font-weight: 400;
+    }
+  }
+}
+
+.ourProducts {
+  text-align: center;
+  margin: 8% 8%;
+  &__featured {
+    font-weight: 500;
+    color: #82ae46;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-style: italic;
+  }
+  &__heading {
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 37px;
+  }
+  &__text {
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #928f8f;
+  }
+
+  &__card {
+    width: 240px;
+    position: relative;
+    border: 1px solid #e6dddd;
+    &__percent {
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: #82ae46;
+      color: #fff;
+      padding: 3px 8px;
+    }
+    &__box {
+      overflow: hidden;
+      &__vegetable {
+        width: 100%;
+        transition: 0.3s ease-in-out;
+        transform: scale(0.9);
+        // overflow: hidden;
+      }
+      &__vegetable:hover {
+        transform: scale(1);
+      }
+    }
+    &__name {
+      text-transform: uppercase;
+      color: #000;
+      font-weight: 300;
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    &__priceBox {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 30px;
+      &__price {
+        color: #928f8f;
+        text-decoration: line-through;
+      }
+      &__discount{
+        color: #82ae46;
+      }
+    }
+  }
+
+  &__click {
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out;
+    &__box {
+      background-color: #82ae46;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      position: relative;
+      &__icon {
+        color: #fff;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+      }
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+  
+}
